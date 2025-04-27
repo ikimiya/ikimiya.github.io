@@ -1,0 +1,172 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/videoplayback.js"></script>
+	<script src="js/jqueryscroll.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+
+  </head>
+  <body>
+    <main>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="home"></div>
+        <div class="myname">
+            <img src="images/sample.png">
+            <h1> Hi I'm Steven </h1>
+            <h1> Welcome to my Website </h1>
+        </div>
+
+        <div class="aboutme" id="about">
+            <h1 class="titleText"> About Me </h1>
+			<p>
+			  I'm a software developer passionate about building software, AI technology, databases, and cryptography. I enjoy coding to solve problems and writing scripts to make tedious tasks more efficient.
+			</p>
+
+			<p>
+			  I graduated from <a href="https://www.purdue.edu/campuses/indianapolis/">Purdue University Indianapolis</a>, where I studied Computer Science and Mathematics.
+			</p>
+
+			<p>
+			  If you'd like to contact me, please email me at <a href="mailto:slin29@rocketmail.com">slin29@rocketmail.com</a>.
+			</p>
+
+        </div>
+
+        <div class="linkbar">
+            <ul class ="horizon">
+                <li>
+                    <a href="https://www.linkedin.com/in/steven-lin-248652259/"> Linkedin Page </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/ikimiya"> Github Page </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="projectTitle" id="projects">
+            <h1 class="titleText"> Projects </h1>
+        </div>
+
+        <div class="outer-container">
+        <div class="project">
+            <div class="video-section">
+                <iframe
+                    id="myVideo1"
+                    src="https://www.youtube.com/embed/zDvINTo0UwM?enablejsapi=1&controls=1&modestbranding=1&rel=0"
+                    title="Burnice Character Demo - 'A Burnice Special for the Brokenhearted' | Zenless Zone Zero"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="text-section">
+                <p class="textbold">Calculator Project | CSS | Design Patterns</p>
+                <p class="textp">-Created a calculator using C++</p>
+                <p class="textp">-Involves using Composite and Factory Design to integrate own array functions to structure the Calculator</p>
+                <p class="textp">-System handles user inputs and follows pedmas operation</p>
+
+            </div>
+        </div>
+        <div class="project">
+            <div class="video-section">
+                <iframe
+                    id="myVideo2"
+                    src="https://www.youtube.com/embed/swcKf0VxqQU?enablejsapi=1&controls=1&modestbranding=1&rel=0"
+                    title="Burnice Character Demo - 'A Burnice Special for the Brokenhearted' | Zenless Zone Zero"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="text-section">
+                <p class="textbold">Video Compressor</p>
+                <p class="textp">- Developed an Comrpession Tool using python</p>
+                <p class="textp">- Used Tkinter as the GUI </p>
+                <p class="textp">- This program allows the user to choose a size and reduces the select video to reduce its size to that </p>
+     
+            </div>
+        </div>
+    </div>
+
+    <!-- Outer container for the single project -->
+    <div class="outer-container">
+        <div class="single-project">
+            <div class="video-section">
+                <iframe
+                    id="myVideo3"
+                    src="https://www.youtube.com/embed/zG7ljqG3_1Y?enablejsapi=1&controls=1&modestbranding=1&rel=0"
+                    title="Burnice Character Demo - 'A Burnice Special for the Brokenhearted' | Zenless Zone Zero"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="text-section">
+                <p class="textbold">Godot 3D Shooter Project</p>
+                <p class="textp">This project uses godot engine to create an simple shooter game</p>
+                <p class="textp">It uses game design fundamentals to develop, design, and test before finalizing </p>
+            </div>
+        </div>
+    </div>
+	
+	
+		<div class="linkbar">
+            <ul class ="horizon">
+                <li>
+                    <a href="projects.html"> More Projects </a>
+                </li>
+            </ul>
+        </div>
+	
+		<div> 
+        <h1 class="titleText" style="margin-top:4%" id="skill"> My Skills </h1>
+        <div class="skillsection" >
+            <ul class="skill-list">
+                <li> C/C++ </li>
+                <li> Java </li>
+                <li> Python </li>
+                <li> Html </li>
+                <li> CSS </li>
+                <li> Javascript </li>
+                <li> Php </li>
+                <li> Git </li>
+                <li> React </li>
+                <li> Django </li>
+                <li> SQL </li>
+		<li> Webscraping </li>
+            </ul>
+        </div>
+		</div>
+
+        <div class="contact-container" id="contact">
+            <h1>Contact Me</h1>
+            <p>Please contact me through this form or at &nbsp <a href="mailto:slin29@rocketmail.com">slin29@rocketmail.com</a></p>
+
+            <form class="form-container" action="https://formsubmit.co/slin29@rocketmail.com" method="POST" onsubmit="return validateForm(event)">
+                <input type="email" id="email" name="email" placeholder="Your email" required />
+                <input type="text" id="subject" name="subject" placeholder="Subject" required />
+                <textarea class="textboxsize" id="message" name="message" placeholder="Your message" required></textarea>
+                <button type="submit" class="submitbtn">Submit</button>
+            </form>
+        </div>
+    </main>
+  </body>
+</html>
